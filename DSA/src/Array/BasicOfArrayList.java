@@ -13,6 +13,10 @@ public class BasicOfArrayList {
 		arr.add(4, 17);
 		arr.add(5, 19);
 		System.out.println(arr);
+		System.out.println(arr.size());
+		arr.add(40);
+		System.out.println(arr.size());
+		System.out.println(arr);
 	}
 
 }
