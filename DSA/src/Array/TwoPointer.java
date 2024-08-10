@@ -28,7 +28,13 @@ while(i<j) {
 for(int x:a) {
 	System.out.print(x+" ");
 }
-
+System.out.println();
+String str = "geekss @for @geekss ";
+String[] arrOfStr = str.split(" ");
+System.out.println(arrOfStr[2].length());
+for (String p : arrOfStr)
+    System.out.println(p);
 	}
+	
 
 }
